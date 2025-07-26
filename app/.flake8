@@ -1,0 +1,14 @@
+[flake8]
+max-line-length = 88
+exclude =
+    __pycache__,
+    *.pyc,
+    .git,
+    .venv,
+    venv,
+    env,
+    build,
+    dist,
+    migrations,
+    settings.py,
+    *.egg-info
